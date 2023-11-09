@@ -1,11 +1,53 @@
 import { Button } from "@/components/ui/button";
 import { Icons } from "@/components/icons";
 import { useTranslation } from 'react-i18next';
+import { useState } from "react";
 
 
 export function SiteCard() {
+    const [modalOpen, setModalOpen] = useState(false);
+
+    const SellixEmbed = () => {
+        return (
+          <div id="sellix-container">
+            <div id="sellix-buttons-pointers-fix">
+              <div className="sellix-iframe-loader-container">
+                <img
+                  src="https://cdn.sellix.io/static/embed/loader.png"
+                  alt="Loader"
+                  className="sellix-iframe-loader"
+                  style={{ width: '35px', display: 'none' }}
+                />
+              </div>
+              <div className="sellix-fallback-button-container">
+                <a
+                  className="sellix-fallback-button"
+                  href="https://embed.sellix.io/product/64851e9501bbf?"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Go to product
+                </a>
+              </div>
+              <div className="sellix-iframe-wrapper">
+                <div className="sellix-iframe-content">
+                  <iframe
+                    scrolling="auto"
+                    src="https://embed.sellix.io/product/64851e9501bbf?"
+                    className="sellix-iframe"
+                    id="sellix-iframe"
+                    onError={(e) => console.log(e)}
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        );
+      };
+      
     const { t } = useTranslation();
     return <>
+    <script src="https://cdn.sellix.io/static/js/embed.js"></script>
      <div className="mt-5 flex justify-center items-center" id="cheats">
     <span className="text-3xl font-semibold dark:text-white text-black">{t('cards.title')}</span>
     </div>
@@ -56,13 +98,12 @@ export function SiteCard() {
                 </dl>
             </div>
             <div className=" px-4 py-4 sm:px-6">
+                {/* if button is clicked, open modal */}
             <Button
                 size="lg"
                 variant="ghost"
                 className="w-full dark:bg-accent text-accent-foreground hover:bg-accent-dark hover:text-accent-foreground-dark bg-accent/30 ring-violet-300 dark:ring-0 ring-2 ring-offset-violet-100 "
-                onClick={() => {
-                    window.location.href = "https://discord.gg/6dKXQ2E"
-                }}
+                onClick={() => setModalOpen(true)}
             >
                                 <Icons.shoppingCart className="h-5 w-5 mr-2" />  {t('cards.buy')}
 
@@ -122,9 +163,7 @@ export function SiteCard() {
                 size="lg"
                 variant="ghost"
                 className="w-full dark:bg-accent text-accent-foreground hover:bg-accent-dark hover:text-accent-foreground-dark bg-accent/30 ring-violet-300 dark:ring-0 ring-2 ring-offset-violet-100 "
-                onClick={() => {
-                    window.location.href = "https://discord.gg/6dKXQ2E"
-                }}
+                onClick={() => setModalOpen(true)}
             >
                 <Icons.shoppingCart className="h-5 w-5 mr-2" /> {t('cards.buy')}
             </Button>
@@ -181,9 +220,7 @@ export function SiteCard() {
                 size="lg"
                 variant="ghost"
                 className="w-full dark:bg-accent text-accent-foreground hover:bg-accent-dark hover:text-accent-foreground-dark bg-accent/30 ring-violet-300 dark:ring-0 ring-2 ring-offset-violet-100 "
-                onClick={() => {
-                    window.location.href = "https://discord.gg/6dKXQ2E"
-                }}
+                onClick={() => setModalOpen(true)}
             >
                 <Icons.shoppingCart className="h-5 w-5 mr-2" /> {t('cards.buy')}
             </Button>
