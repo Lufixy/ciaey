@@ -116,3 +116,69 @@
   );
 }
 
+
+[data-sellix-product] * {
+  pointer-events: none;
+}
+[data-sellix-group] * {
+  pointer-events: none;
+}</style></div><div id="sellix-modal-64851e9501bbf" style="display: flex; position: fixed; top: 0px; left: 0px; width: 100%; height: 100%; z-index: 99999;"><div id="backdrop" class="sellix-backdrop"></div><style>.sellix-iframe {
+  width:100%;
+  height:100%;
+  border:none;
+}
+
+.sellix-iframe-content {
+  height: 100%;
+}
+
+.sellix-iframe-wrapper {
+  top:20px;
+  margin:auto;
+  width: 100%;
+  height:100%;
+  z-index: 1;
+}
+
+.sellix-iframe-loader-container {
+  z-index: 1;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sellix-backdrop {
+  background: #00000075;
+  backdrop-filter: blur(3px);
+  width:100%;
+  height:100%;
+  position:absolute;
+}
+
+.sellix-fallback-button {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+}
+
+.sellix-fallback-button-container {
+  position: absolute;
+  z-index: 2;
+  display: none;
+  top: 50%;
+  height: 50px;
+  line-height: 40px;
+  max-height: 50px;
+  box-sizing: border-box;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #613bea;
+  padding: .375rem .75rem;
+  border-radius: 3px;
+}
