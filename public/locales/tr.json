@@ -1,0 +1,38 @@
+{
+    "navbar": {
+        "home": "Anasayfa",
+        "cheats": "Hileler",
+        "about": "Hakkında",
+        "contact": "İletişim",
+        "login": "Giriş Yap",
+        "register": "Kayıt Ol",
+        "logout": "Çıkış Yap",
+        "discord": "Discord"
+    },
+
+
+    "cheats":{
+        "description": "Counter-Strike 1.6, Valve tarafından geliştirilen bir birinci şahıs nişancı video oyunudur. Oyun, 2000 yılında Windows için ve 2003 yılında Xbox için yayınlanmıştır. Oyun ayrıca bir beta olarak Ocak 2013'te OS X ve Linux'a da taşınmıştır. Tam sürümü Nisan 2013'te yayınlanmıştır.",
+        "buy": "Satın Al"
+    },
+
+    "features": {
+        "title": "Özellikler",
+        "vac": "VAC Koruması",
+        "vac_text": "VAC, Valve Anti-Cheat'in kısaltmasıdır. Bu sistem, Valve tarafından geliştirilen ve Valve tarafından işletilen bir otomatik anti-hile sistemidir. Sistem, Valve tarafından geliştirilen ve Valve tarafından işletilen bir otomatik anti-hile sistemidir.",
+        "prices": "Uygun Fiyatlar",
+        "prices_text": "Yazılımımızın üstün olması aynı zamanda çok uygun maliyetlidir.",
+        "support": "7/24 Destek",
+        "support_text": "Destek ekibimiz, 7/24 hizmetinizdedir. Herhangi bir sorunuz varsa, destek ekibimizle iletişime geçmekten çekinmeyin. Sorularınızı cevaplamaktan mutluluk duyarız."
+    },
+    "cards": {
+        "title": "Hile Satın Al",
+        "description": "Açıklama",
+        "day": "1 Günlük Abonelik",
+        "week": "1 Haftalık Abonelik",
+        "month": "1 Aylık Abonelik",
+        "price": "Fiyat",
+        "buy": "Satın Al"
+
+    }
+}

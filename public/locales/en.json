@@ -1,0 +1,37 @@
+{
+    "navbar": {
+        "home": "Home",
+        "cheats": "Cheats",
+        "about": "About",
+        "contact": "Contact",
+        "login": "Login",
+        "register": "Register",
+        "logout": "Logout",
+        "discord": "Discord"
+    },
+    "cheats":{
+        "description": "Counter-Strike 1.6 is a first-person shooter video game developed by Valve. It was released in 2000 for Windows and in 2003 for the Xbox. The game was also ported to OS X and Linux in the form of a beta in January 2013. A full release was published in April 2013.",
+        "buy": "Buy"
+    },
+
+    "features": {
+        "title": "Features",
+        "vac": "VAC Protection",
+        "vac_text": "Our cheat has its own VAC bypass and has never been massively detected by VAC.",
+        "prices": "Affordable Prices",
+        "prices_text": "Our software's excellence is coupled with very reasonable pricing.",
+        "support": "24/7 Support",
+        "support_text": "Our support team is available 24/7. If you have any questions, don't hesitate to contact our support team. We are happy to answer your inquiries."
+        },
+
+    "cards": {
+        "title": "Buy Cheats",
+        "description": "Description",
+        "day": "1 Day Subscription",
+        "week": "1 Week Subscription",
+        "month": "1 Month Subscription",
+        "price": "Price",
+        "buy": "Buy"
+    }
+
+}
