@@ -8,7 +8,7 @@
  Description: It is a simple site made for Cheat Sales.
 ## 🚀 Demo
 
-https://kalashi.dev
+[https://ciaey.vercel.app/](https://ciaey.vercel.app/)
 
 ## 📦 Installation
 
