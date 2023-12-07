@@ -10,6 +10,7 @@
 
 [https://ciaey.vercel.app/](https://ciaey.vercel.app/)
 
+![Demo Screenshot](images/screenshot.png)
 ## 📦 Installation
 
 ```bash 
