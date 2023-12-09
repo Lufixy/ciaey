@@ -1,4 +1,4 @@
-# Portfolio made by [Lufixy](https://github.com/Lufixy)
+# Cieay made by [Lufixy](https://github.com/Lufixy)
 
 ## 📝 Credits
 
